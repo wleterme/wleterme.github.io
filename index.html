@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Willem Leterme</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+li{
+  margin: 5px 0;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+  grid-column-start: 1;
+}
+
+dd {
+  grid-column-start: 2;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+      <a href="#talks" class="w3-bar-item w3-button"> Tutorials and Talks </a>
+      <a href="#projects" class="w3-bar-item w3-button"> Projects </a>
+      <a href="#teaching" class="w3-bar-item w3-button"> Teaching and Supervision </a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button">Publications</a>
+  <a href="#talks" onclick="w3_close()" class="w3-bar-item w3-button">Tutorials and Talks</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">Projects </a>
+  <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button">Teaching and Supervision</a>
+</nav>
+
+
+<!-- Promo Section - "Willem Leterme" -->
+<div id="about" class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Willem Leterme</h3>
+      <p> Willem Leterme performs research to enhance the transition to a renewable-driven carbon-free power system. He is currently a senior researcher associated with the University of Leuven and the EnergyVille research center, 
+	where he leads a small team of post-doctoral researchers and PhD students. Previously, he has been a post-doc at KU Leuven and a visiting researcher at Imperial College London. His PhD has received funding from FWO-flanders. He has
+	received the KVBE/SRBE award for his PhD thesis.</p>
+
+	<p>Currently, his research focuses on enhancing automated decision making processes for future power systems primarily focusing on fast transient phenomena, such as identification of short-circuit faults and decisions involving switching transients. In this field, his aim is to develop new algorithms that allow for taking actions on a millisecond time-basis as well as relating the impact of these actions to operation and planning on a minute to hourly basis. To this end,
+	   he combines his expertise on power systems with elements from decision theory, statistical inference and machine learning to balance computational complexity while guaranteeing an adequate level of accuracy.</p>
+      <!-- <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th">&nbsp;</i> View Our Works</a></p> -->
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="willem_2020.jpg" alt="Willem" width="300" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Willem Leterme" -->
+<div id="publications" class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m10">
+      <h3>Publications</h3>
+      <h4>Journal Articles</h4>
+      <ul style="list-style-type:none">
+<li> Leterme, W., (2022). Probabilistic Analysis and Optimization of Protection Functions in Systems with Converter-Interfaced Generation and Transmission. Submitted to IEEE Transactions on Power Delivery 
+<li> Leterme, W., Heylen, E., Van Hertem, D. with Leterme, W. (corresp. author) (2021). On the use of the frequency domain in assessing resonant overvoltages during transformer energization. Electric Power Systems Research, 196, Art.No. 107164. doi: 10.1016/j.epsr.2021.107164 
+<li> Wang, M., Leterme, W., Chaffey, G., Beerten, J., Van Hertem, D. with Wang, M. (corresp. author) (2021). Multi‐vendor interoperability in HVDC grid protection: State‐of‐the‐art and challenges ahead. Iet Generation Transmission & Distribution, 1-23. doi: 10.1049/gtd2.12165 
+<li> Wang, M., An, T., Ergun, H., Lan, Y., Andersen, B., Szechtman, M., Leterme, W., Beerten, J., Van Hertem, D. with Wang, M. (corresp. author) (2020). Review and outlook of HVDC grids as backbone of the transmission system. CSEE Journal of Power and Energy Systems. doi: 10.17775/CSEEJPES.2020.04890 
+<li> Leterme, W. (2020). Y-parameters Model of Cross-Bonded Cables Including Bonding Wire Impedances. Ieee Transactions On Power Delivery. doi: 10.1109/TPWRD.2020.3005324 
+<li> Abedrabbo, M., Dejene, F.Z., Leterme, W., Van Hertem, D. (2020). HVDC Grid Post-DC Fault Recovery Enhancement. Ieee Transactions On Power Delivery, 1137-1148. doi: 10.1109/TPWRD.2020.3002717 Open Access 
+<li> Abedrabbo, M., Leterme, W., Van Hertem, D. (2020). Systematic Approach to HVDC Circuit Breaker Sizing. IEEE TRANSACTIONS ON POWER DELIVERY, 35 (1), 288-300. Open Access 
+<li> Leterme, W., Judge, P.D., Wylie, J., Green, T.C. with Leterme, W. (corresp. author) (2019). Modeling of MMCs with Controlled DC Fault Blocking Capability for DC Protection Studies. Ieee Transactions On Power Electronics. doi: 10.1109/TPEL.2019.2954743 
+<li> Judge, P.D., Chaffey, G., Wang, M., Dejene, F., Beerten, J., Green, T.C., Van Hertem, D., Leterme, W. (2019). Power-System Level Classification of Voltage-Source HVDC Converter Stations Based Upon DC Fault Handling Capabilities. IET Renewable Power Generation, 13 (15), 2899-2912. doi: 10.1049/iet-rpg.2019.0462 Open Access 
+<li> Van Hertem, D., Leterme, W., Chaffey, G., Abedrabbo, M., Wang, M., Dejene, F., Barnes, M. (2019). Substations for Future HVdc Grids: Equipment and Configurations for Connection of HVdc Network Elements. IEEE Power and Energy Magazine, 17 (4), 56-66. doi: 10.1109/MPE.2019.2909006 Open Access 
+<li> Leterme, W., Jahn, I., Ruffing, P., Sharifabadi, K., Van Hertem, D. with Leterme, W. (corresp. author) (2019). Designing for High-Voltage dc Grid Protection: Fault Clearing Strategies and Protection Algorithms. IEEE Power and Energy Magazine, 17 (3), 73-81. doi: 10.1109/MPE.2019.2897188 Open Access 
+<li> Leterme, W., Barnes, M., Van Hertem, D. with Leterme, W. (corresp. author) (2018). Signal Processing for Fast Fault Detection in HVDC Grids. Csee Journal Of Power And Energy Systems, 4 (4), 469-478. doi: 10.17775/CSEEJPES.2016.00300 [50000518] Open Access 
+<li> Wang, M., Leterme, W., Chaffey, G., Beerten, J., Van Hertem, D. (2018). Pole Rebalancing Methods for Pole-to-ground Faults in Symmetrical Monopolar HVDC Grids. IEEE_J_PWRD, 34 (1), Art.No. 8408775, 188-197. doi: 10.1109/TPWRD.2018.2853704 
+<li> Leterme, W., Pirooz Azad, S., Van Hertem, D. with Leterme, W. (corresp. author) (2018). HVDC Grid Protection Algorithm Design in Phase and Modal Domains. IET Renewable Power Generation. doi: 10.1049/iet-rpg.2018.5163 Open Access 
+<li> Leterme, W., Van Hertem, D. (2018). Cable Protection in HVDC Grids Employing Distributed Sensors and Pro-Active HVDC Breakers. IEEE Transactions on Power Delivery, (99), 1-10. doi: 10.1109/TPWRD.2018.2808381 
+<li> Pirooz Azad, S., Leterme, W., Van Hertem, D. (2016). Fast breaker failure backup protection for HVDC grids. Electric Power Systems Research, 99-105. doi: 10.1016/j.epsr.2016.03.003 Open Access 
+<li> Leterme, W., Pirooz Azad, S., Van Hertem, D. (2016). A Local Backup Protection Algorithm for HVDC Grids. IEEE Transactions on Power Delivery, 31 (4), 1767-1775. doi: 10.1109/TPWRD.2016.2543306 
+<li> Leterme, W., Beerten, J., Van Hertem, D. (2016). Nonunit protection of HVDC grids with inductive dc cable termination. IEEE Transactions on Power Delivery, 31 (2), 820-828. doi: 10.1109/TPWRD.2015.2422145 
+<li> Leterme, W., Tielens, P., De Boeck, S., Van Hertem, D. (2014). Overview of Grounding and Configuration Options for Meshed HVDC grids. IEEE Transactions on Power Delivery, 29 (6), 2467-2475. doi: 10.1109/TPWRD.2014.2331106 
+<li> Leterme, W., Ruelens, F., Claessens, B., Belmans, R. (2014). A Flexible Stochastic Optimization Method for Wind Power Balancing With PHEVs. IEEE Transactions on Smart Grid, 5 (3), 1238-1245. doi: 10.1109/TSG.2014.2302316 
+      </ul>
+      <h4>Book Chapters</h4>
+      <ul style="list-style-type:none">
+	<li> Leterme, W., Van Hertem, D. (2016). DC Fault Phenomena and DC Grid Protection. In: D. Van Hertem, O. Gomis-Bellmunt, J. Liang (Eds.), HVDC Grids for Offshore and Supergrid of the Future, Chapt. 17, (345-370). (IEEE Press Series on Power Engineering). Hoboken, NJ: Wiley-IEEE Press. ISBN: 978-1-118-85915-5.
+	  </ul>
+      <h4>Conference Papers</h4>
+      <ul style="list-style-type:none">
+<li> Leterme, W., Van Hertem, D., Niederauer, C., Gaun, A. (2021). On Modeling of Air-Core Inductors for DC Protection Studies. In: Proc. IET ACDC 2021. Presented at the The 17th International Conference on AC and DC Power Transmission, Online, 07 Dec 2021-08 Dec 2021. 
+<li> Leterme, W., Abedrabbo, M., Chaffey, G., Wang, M., Van Hertem, D. (2021). Impact of HVDC grid protection on DC cable transients. In: Proceedings Jicable-HVDC’21 - International Symposium on HVDC cable systems, (Paper No. 6.2). Presented at the Jicable HVDC'21 - International Symposium on HVDC Cable Systems, Liege, Belgium, 07 Nov 2021-10 Nov 2021. 
+<li> Bhardwaj, V., Lundholm, R., Ergun, H., Leterme, W., Bardideh, H., Van Hertem, D., Machl, A., Reich, K., Bailleul, M. (2021). Cable Penetration Degree in High Voltage Networks. In: SEERC Colloquium - 2021, (Paper No. 1188), (1-13). Presented at the CIGRE SEERC Vienna 2021, Vienna, 30 Nov 2021-30 Nov 2021. (URL) (professional oriented) 
+<li> Leterme, W., Judge, P.D., Green, T.C. (2020). Analysis Of DC-side Fault Response of MMCs with Controlled Fault Blocking Capability for Different Transmission Line Types. In: Proc. EPE, (1-9). Presented at the 22nd European Conference on Power Electronics and Applications EPE’20 ECCE Europe, Lyon, France [Virtual], 07 Sep 2020-11 Sep 2020. Open Access 
+<li> Chaffey, G., Jahn, I., Loenders, R., Leterme, W., Dejene, F., Wang, M., Norrga, S., Van Hertem, D. (2019). Requirements for functional testing of HVDC protection IEDs. In: CIGRE Science & Engineering, (Paper No. B4-031), (1-12). Presented at the CIGRÉ B4 Colloquium 2019, Johannesburg. Open Access 
+<li> Leterme, W., Wang, M., Chaffey, G., Van Hertem, D. (2019). HVDC Grid Protection Algorithm Performance Assessment. In: Proc. CIGRE Symposium Aalborg, (1-12). Presented at the CIGRE Symposium Aalborg, Aalborg, Denmark, 04 Jun 2019-07 Jun 2019. Open Access 
+<li> Wang, M., Jovcic, D., Leterme, W., Van Hertem, D., Zaja, M., Jahn, I. (2019). Pre-standardisation of Interfaces between DC Circuit Breaker and Intelligent Electronic Device to Enable Multivendor Interoperability. In: CIGRE Aalborg Symposium, (Paper No. 33). Presented at the CIGRE Aalborg Symposium, Aalborg, Denmark, 04 Jun 2019-07 Jun 2019. (URL) Open Access 
+<li> Abedrabbo, M., Leterme, W., Van Hertem, D. (2019). Impact of Operational Parameters on HVDC Circuit Breaker Requirements. In: CIGRE Science & Engineering. Presented at the CIGRE_IEC 2019 Conference on EHV and UHV, Hakodate, Japan, 24 Apr 2019-26 Apr 2019. Open Access 
+<li> Wang, M., Leterme, W., Chaffey, G., Beerten, J., Van Hertem, D. (2019). Protection and Pole Voltage Rebalancing for Pole-to-ground Faults in Symmetrical Monopolar HVDC Grids. In: Proc. IET ACDC 2019, (Paper No. 7a.3). Presented at the The 15th IET international conference on AC and DC Power Transmission, Coventry, UK, 05 Feb 2019-07 Feb 2019. ISBN: 978-1-83953-007-4. doi: 10.1049/cp.2019.0043 Open Access 
+<li> Leterme, W., Wang, M., Van Hertem, D. (2018). Fault Discrimination in HVDC Grids with Reduced Use of HVDC Circuit Breakers. In: IEEE Power and Energy Society General Meeting. Presented at the 2018 IEEE Power & Energy Society General Meeting (PESGM), Portland, OR, USA, 05 Aug 2018-10 Aug 2018. ISBN: 978-1-5386-7703-2. doi: 10.1109/PESGM.2018.8585735 
+<li> Wang, M., Abedrabbo, M., Leterme, W., Van Hertem, D., Spallarossa, C., Oukaili, S., Grammatikos, I., Kuroda, K. (2017). A Review on AC and DC Protection Equipment and Technologies: Towards Multivendor Solution. In: Cigrè Winnipeg 2017 Colloquium, (Paper No. B4-047), (1-11). Presented at the Cigrè Winnipeg 2017 Colloquium, Winnipeg, Canada, 30 Sep 2017-06 Oct 2017. Open Access 
+<li> Abedrabbo, M., Leterme, W., Van Hertem, D. (2017). Analysis and Enhanced Topologies of Active-Resonance DC Circuit Breaker. In: 2017 19th European Conference on Power Electronics and Applications (EPE'17 ECCE Europe): vol. 2017, (1-10). Presented at the European Conference on Power Electronics, Warsaw, 11 Sep 2017-14 Sep 2017. Open Access 
+<li> Abedrabbo, M., Wang, M., Tielens, P., Dejene, F.Z., Leterme, W., Beerten, J., Van Hertem, D. (2017). Impact of DC grid contingencies on AC system stability. In: Proc. International Conference on AC and DC Power Transmission, (Paper No. C3.1). Presented at the IET ACDC 2017, Manchester, UK, 14 Feb 2017-16 Feb 2017. Open Access 
+<li> Leterme, W., Beerten, J., Van Hertem, D. (2016). Equivalent Circuit for Half-Bridge MMC Dc Fault Current Contribution. In: Proc. IEEE ENERGYCON 2016, (1-6). Presented at the IEEE Energycon, Leuven, Belgium, 04 Apr 2016-08 Apr 2016. doi: 10.1109/ENERGYCON.2016.7513914 
+<li> Pirooz Azad, S., Leterme, W., Van Hertem, D. (2015). A DC grid primary protection algorithm based on current measurements. In: EPE Journal, (1-10). Presented at the European Conference on Power Electronics and Applications, Geneva, Switzerland, 08 Sep 2015-10 Sep 2015. Open Access 
+<li> Leterme, W., Pirooz Azad, S., Van Hertem, D. (2015). Fast Breaker Failure Backup Protection for HVDC Grids. In: Proc. IPST 2015, (1-6). Presented at the IPST, Cavtat, Croatia, 15 Jun 2015-18 Jun 2015. Open Access 
+<li> Leterme, W., Van Hertem, D. (2015). Classification of Fault Clearing Strategies for HVDC Grids. (Paper No. 143). Presented at the CIGRE, Lund, 27 May 2015-28 May 2015. Open Access 
+<li> Leterme, W., Ahmed, N., Beerten, J., Ängquist, L., Van Hertem, D., Norrga, S. (2015). A new HVDC grid test system for HVDC grid dynamics and protection studies in EMT-type software. In: Proc. IET ACDC 2015, (1-7). Presented at the International Conference on AC and DC Power Transmission, Birmingham, UK, 10 Feb 2015-12 Feb 2015. Open Access 
+<li> Geebelen, B., Leterme, W., Van Hertem, D. (2015). Analysis of DC breaker requirements for different HVDC grid protection schemes. In: Proc. IET ACDC 2015, (1-7). Presented at the International Conference on AC and DC Power Transmission, Birmingham, UK, 10 Feb 2015-12 Feb 2015. Open Access 
+<li> Tant, J., Leterme, W., Beerten, J., Michiels, W., Driesen, J. (2014). Generic Circuit Partitioning Method for Efficient Simulation of Modular Multilevel Converter Topologies. In: Proc. COMPEL 2014, (Paper No. P1-25), (1-8). Presented at the IEEE Workshop on Control and Modeling for Power Electronics, Santander, Spain, 22 Jun 2014-25 Jun 2014. doi: 10.1109/COMPEL.2014.6877169 
+<li> Leterme, W., Van Hertem, D. (2014). Reduced Modular Multilevel Converter Model to Evaluate Fault Transients in DC Grids. In: Proc. IET DPSP, (1-6). Presented at the IET DPSP, Copenhagen, Denmark, 31 Mar 2014-03 Apr 2014. doi: 10.1049/cp.2014.0107 Open Access 
+<li> Breugelmans, S., Leterme, W., Van Hertem, D., Marcelis, R. (2014). Comparison of different methods to limit short circuit currents in DC traction networks. In: Proc. IET DPSP, (1-6). Presented at the IET DPSP, Copenhagen, Denmark, 31 Mar 2014-03 Apr 2014. doi: 10.1049/cp.2014.0133 Open Access 
+<li> Ruelens, F., Weckx, S., Leterme, W., Vandael, S., Claessens, B., Belmans, R. (2013). Stochastic Portfolio Management of an Electric Vehicles Aggregator. In: Innovative Smart Grid Technologies (ISGT), 2013, (1-5). Presented at the Innovative Smart Grid Technologies, Copenhagen, 06 Oct 2013-09 Oct 2013. ISBN: 978-1-4799-2984-9. doi: 10.1109/ISGTEurope.2013.6695329 Open Access 
+<li> De Boeck, S., Tielens, P., Leterme, W., Van Hertem, D. (2013). Configurations and Earthing of HVDC Grids. In: Proc. IEEE PES GM 2013, (1-5). Presented at the IEEE Power & Energy Society General Meeting, Vancouver, Canada, 21 Jul 2013-25 Jul 2013. doi: 10.1109/PESMG.2013.6672808 Open Access 
+<li> Ruelens, F., Vandael, S., Leterme, W., Claessens, B.J., Hommelberg, M., Holvoet, T., Belmans, R. (2012). Demand Side Management of Electric Vehicles with Uncertainty on Arrival and Departure Times. In: Innovative Smart Grid Technologies Europe (ISGT Europe), (Paper No. 246). Presented at the IEEE PES Innovative Smart Grid Technologies (ISGT 2012), Berlin, 14 Oct 2012-17 Oct 2012. ISBN: 978-1-4673-2595-0.
+  </ul>
+      <h4>Reports</h4>
+      <ul style="list-style-type:none">
+	<li> CIGRE JWG B4/B5.59, , Koreman, K. (contr.), Leterme, W. (contr.), Hassan, F. (contr.), Osman, A. (contr.), Vila Flores, M. (contr.), Whitehouse, R. (contr.), Mohaddes, M. (contr.), Iravani, R. (contr.), Spahic, E. (contr.), D'Arco, S. (contr.), Fu, Y. (contr.), Zhang, R. (contr.), Johansson, P. (contr.), Wang, J. (contr.), Do Espirito Santo, S. (contr.), Sneath, J. (contr.), Van Hertem, D. (contr.), Pitto, A. (contr.) (2018). Protection and local control of HVDC-grids. Protection and Local Control of HVDC-Grids, Report No. TB 739, CIGRE.
+	  </ul>
+      <h4>PhD Thesis</h4>
+      <ul style="list-style-type:none">
+	<li> Leterme, W., Van Hertem, D. (sup.) (2016). Communication-less Protection Algorithms for Meshed VSC HVDC Cable Grids. 224
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Willem Leterme" -->
+<div id="talks" class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Tutorials and Talks</h3>
+      <dl>
+<dt>2022</dt>		<dd>Invited Presentation at Power Network Digitalization Impacts on Protection, Automation and Control, Brussels, Belgium</dd>
+<dt>2021</dt>		<dd>Tutorial at the CIGRE E_GCC Power Conference [Virtual]</dd>
+<dt>2020</dt>		<dd>Tutorial at the CIGRE India B4 International Tutorial [Virtual]</dd>
+<dt>2019</dt>		<dd>Tutorial at the CIGRE Symposium Aalborg, Aalborg, Denmark</dd>
+<dt>2019</dt>	        <dd>Invited presentation, session chair at the AEIT HVDC International Conference, Florence, Italy</dd>
+<dt>2018</dt>		<dd>Invited panel presentation at the IEEE ISGT Conference, Sarajevo, Bosnia</dd>
+<dt>2018</dt>		<dd>Lecture at the EES-UETP Course on “HVDC Technology and HVDC Grids”, Leuven, Belgium</dd>
+<dt>2017</dt>		<dd>Invited panel presentation at the Elsevier Conference on Applied Energy, Cardiff, UK</dd>
+<dt>2017</dt>		<dd>Invited presentation at the CIGRE HVDC International Workshop, Venice, Italy</dd>
+<dt>2016</dt>	        <dd>Invited presentation at the “Next Generation of Researchers in Power Systems”, The University of Manchester, UK</dd>
+<dt>2016</dt>		<dd>Lecture at the EES-UETP Course on “HVDC Technology and HVDC Grids”,	Barcelona, Spain</dd>
+<dt>2013</dt>		<dd>Lecture given at EES-UETP Course on “HVDC for Offshore Grids”, Leuven, Belgium</dd>
+</dl>
+    </div>
+  </div>
+</div>
+
+<div id="projects" class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Projects</h3>
+      <ul style="list-style-type:none">
+	<li> NEPTUNE: North-sea Energy Plan for Transition to Sustainable Wind Energy (2018-2023) (<a href="https://www.energyville.be/en/research/neptune-north-sea-energy-plan-transition-sustainable-wind-energy">NEPTUNE</a>)
+	<li> Study for Elia, Resonance and Transient Behavior of Extensive Cable Grid (2020) (<a href="https://cdn.sanity.io/files/atmq7uc1/production/7a09bc78b7eeade581be6ea241b76888f347820a.pdf">Report</a>)
+	<li> PROMOTioN, Progress on Meshed HVDC Offshore Transmission Networks (2016-2020) (<a href="https://www.promotion-offshore.net/">PROMOTioN</a>)
+	<li> HIBreak, Feasibility analysis for new type of HVDC Circuit Breaker (2016) (<a href="https://scibreak.com/"> Scibreak</a>)
+	<li> FWO Fellowship "Communication-less Protection Algorithms for HVDC Grids" (2012-2016)
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Willem Leterme" -->
+<div id="teaching" class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Supervision</h3>
+	<ul style="list-style-type:none">
+	<li> PhD Supervision: M. Heidari (2022-...), X. Liu (2022-...), J. Vermunicht (2019-...), M. Abedrabbo (2016-2021)
+	<li> Msc. Thesis Supervision (Master AI, KU Leuven): W. Mommen, D. Wysota, F. Wilberz
+	<li> Msc. Thesis Supervision (Master Energy, KU Leuven): C. Bex, B. Geebelen S. Breugelmans
+        </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/willem-leterme/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
